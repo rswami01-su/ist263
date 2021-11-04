@@ -22,6 +22,8 @@ padding:10px;
 margin-bottom: 30px }
 
 nav a:hover {background-color: #4eae64}
-@media only screen and (max-width: 1000px) {
-        nav a {display: block; size: 100%;}
+@media only screen and (max-width: 900px) {
+        nav a {display: block; width: 100%;}
+        span {display:none}
     }
+    
