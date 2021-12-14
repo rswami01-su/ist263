@@ -26,7 +26,7 @@
   transform: translate(-50%, -200%);
   display: absolute;
 }
-.mission {text-align: center;}
+.mission {text-align: center; padding: 10px; padding-bottom: 20px;}
 .spoonimage {display:flex; padding-right: 35px;
             padding-left: 40px;
             line-height: 25px}
@@ -45,7 +45,7 @@
     rgba(172, 0, 0, 0) 70.3%
   );
   height: 300px;
-  width: 500px;
+  width: 300px;
   
 }
 .spoon {display:flex;
@@ -67,9 +67,18 @@
   padding: 30px;
   text-align: center;
 }
-.spicebenefits {display: flex; flex-wrap: wrap;
-
+.spicebenefits {display: flex; flex-wrap: wrap;max-width: 100%;
+        padding-left: 40px;
+        padding-right: 20px;
+    justify-content: space-between;}
+h2 {
+    max-width: 100%;
+        padding-left: 40px;
+        padding-right: 20px;
 }
+p {max-width: 100%;
+        padding-left: 40px;
+        padding-right: 20px;}
 </style>
 <body>
     <nav>
@@ -82,9 +91,11 @@
         <div class=heroimage>
             <img src="../images/Home-page-2.jpg" alt="Spicespoon" class="homeimage">
         </div>
-        <div class="centered">
+        <!--
+            <div class="centered">
             <h1>Dive into the world of Indian Spices</h1>
-        </div>
+        </div> -->
+
     </div>
 
     <main>
@@ -127,12 +138,6 @@
                 <div class="para">
                 <h3>Coriander</h3>
                 <p>These seeds, either whole, ground, or extracted may help in lowering blood sugar.  This is an all-rounder spice that influences a variety of characteristics in your body such as serving as an antioxidant, immunity boosting, protecting health and brain health. </p>
-            </div>
-        </div>
-            <div class="circles">
-            <div class="para">
-                <h3>Cinnamon</h3>
-                <p>This spice is a good addition to the meals for those who have high blood sugar.  Similar to coriander, it helps in protecting the heart and reducing cholesterol levels. Fun fact: we use raw cinnamon sticks as a base with other spices so we can get the maximum flavor out of it!</p>
             </div>
         </div>
 
