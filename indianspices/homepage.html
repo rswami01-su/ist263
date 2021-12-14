@@ -31,25 +31,18 @@
             padding-left: 40px;
             line-height: 25px}
 
-.quote-wrapper { height: 350px;
-  position: relative;
-  width: 350px;
-  display:flex;
-  float: left;
-}
 .circles {
   background: radial-gradient(
     ellipse at center,
     rgba(232, 190, 51, 0.94) 0%,
     rgb(238, 144, 29) 70%,
-    rgba(172, 0, 0, 0) 70.3%
-  );
+    rgba(172, 0, 0, 0) 70.3%);
   height: 300px;
   width: 300px;
-  
+  padding: 10px
 }
 .spoon {display:flex;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;}
 .description {
             padding-right: 35px;
             padding-left: 40px;
@@ -72,13 +65,23 @@
         padding-right: 20px;
     justify-content: space-between;}
 h2 {
-    max-width: 100%;
+        max-width: 100%;
         padding-left: 40px;
         padding-right: 20px;
+        padding-bottom: 10px;
+        text-align: center;
 }
+
 p {max-width: 100%;
         padding-left: 40px;
         padding-right: 20px;}
+.recreations {display:flex; flex-wrap: wrap; justify-content: space-between;}
+.rec {padding-top: 40px;}
+.testimonials {background-color: #e7b432;
+                border-radius: 1em; padding: 20px;
+                display:flex; flex:1;
+                margin: 25px;
+                } 
 </style>
 <body>
     <nav>
@@ -122,7 +125,7 @@ p {max-width: 100%;
         <div class="circles">
             <div class="para">
                 <h3>Turmeric</h3>
-                <p>We’ve also seen the “golden” milk trend that has been marketed in the western world that has been practiced for generations in India. It is simply turmeric mixed with warm milk – and it is life changing. This spice is a rich anti-inflammatory component that also reduces pain and swelling in different parts of your body. </p>
+                <p>We’ve also seen the “golden” milk trend that has been marketed in the western world that has been practiced for generations in India. It is simply turmeric mixed with warm milk. It is a rich anti-inflammatory component that also reduces pain and swelling in different parts of your body. </p>
             </div>
 
         
@@ -150,22 +153,32 @@ p {max-width: 100%;
         </div>
     </div>      
         
-            
 
-        <h2>Here are some of the recreations that our followers have created!</h2>
-                <p><img src="../images/Home-page-3.jpg" alt="snacks" class="image"></p>
+
+        <h2 class="rec">Here are some of the recreations that our followers have created!</h2>
+        <div class="recreations">
+            <div class="imagesoffood">
+                <img src="../images/Home-page-3.jpg" alt="snacks" class="image">
                 <p>Sent from Barbara Thomas – New York, USA</p>
-
-                <p><img src="../images/Home-page-4.jpg" alt="cauliflower" class="image"></p>
-                <p>Sent from Sam Kim – Seoul, Korea</p>
-
-                <p><img src="../images/Home-page-5.jpg" alt="mealprep" class="image"></p>
-                <p>Sent from André Scholz – Munich, Germany</p>
+            </div>
+          
+            <div class="imagesoffood">
+            <img src="../images/Home-page-4.jpg" alt="cauliflower" class="image">
+            <p>Sent from Sam Kim – Seoul, Korea</p>
+            </div>
+             <div class="imagesoffood">
+            <img src="../images/Home-page-5.jpg" alt="mealprep" class="image">
+            <p>Sent from André Scholz – Munich, Germany</p>
+         </div>
+        </div>
+                
 
         <h2>Testimonials</h2>
-                <p>“The recipes provided are simple, to the point and great for someone who is just starting out trying new cuisines.”</p>
-                <p>“I always found Indian food challenging to make with the vast number of spices, but this website broke it down easy for me to understand and create a delicious meal for my family.”</p>
-                
+        <div class="testimonials">
+            <p>“The recipes provided are simple, to the point and great for someone who is just starting out trying new cuisines.”</p>
+            <p>“I always found Indian food challenging to make with the vast number of spices, but this website broke it down easy for me to understand and create a delicious meal for my family.”</p>
+        </div>
+               
     </main>
 <footer>
      <hr>
