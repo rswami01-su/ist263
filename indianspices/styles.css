@@ -1,8 +1,9 @@
 body{font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 h1 {color:darkgreen;}
-h2 {color:rgb(214, 174, 218);}
+h2 {color:darkslateblue;}
 h3 {color: darkgreen;}
+  .special {color: purple}
 
 h1 {
     font-size: 2.5em;
