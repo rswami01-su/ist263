@@ -12,3 +12,11 @@ h2 {
     font-size: 1.2em;
 }
 h3 {font-size: 1em}
+
+nav {
+  background-color: #3faad8;
+padding:10px;
+margin-bottom: 30px }
+
+body {background-color:rgb(247, 234, 184);
+  flex-wrap: wrap; }

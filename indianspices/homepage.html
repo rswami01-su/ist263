@@ -9,10 +9,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 </head>
 <style>
+    body {height: 100%;}
     h1 {font-family: 'Playfair Display', serif;}
+    .homeimage {width: 100%;}
+    .container {
+    display: relative;
+    text-align: center;
+    color:green;}
+.centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  display: absolute;
+}
+.mission {text-align: center;}
+.spoonimage {display:flex; padding-right: 35px;
+            padding-left: 40px;
+            line-height: 25px}
+
+.quote-wrapper { height: 350px;
+  position: relative;
+  width: 350px;
+  display:flex;
+  float: left;
+}
+.circles {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(232, 190, 51, 0.94) 0%,
+    rgb(238, 144, 29) 70%,
+    rgba(172, 0, 0, 0) 70.3%
+  );
+  height: 300px;
+  width: 500px;
+  
+}
+.spoon {display:flex;
+        flex-wrap: wrap; }
+.description {
+            padding-right: 35px;
+            padding-left: 40px;
+            line-height: 25px;
+            flex: 1;}
+.image {max-width: 100%;
+        padding-left: 40px;
+        padding-right: 20px;
+    
+       }
+.para {
+  font-size: 13px;
+  height: 100%;
+  line-height: 1.25;
+  padding: 30px;
+  text-align: center;
+}
+.spicebenefits {display: flex; flex-wrap: wrap;
+
+}
 </style>
 <body>
     <nav>
@@ -20,34 +77,75 @@
         <a href="recipes.html" class="alink">Recipes</a> <span>|</span>
         <a href="about.html" class="alink">About</a> 
     </nav>
-    <h1>Dive into the world of Indian Spices</h1>
-    <header>
-        <p><img src="../images/Home-page-2.jpg" alt="Spicespoon" class="image"></p>
-    </header>
-   
-    <main>
-        <h2>Our mission</h2>
-                <p>To educate and share the beauty of Indian spices and to come together as a community to share and experiment with recipes.</p>
+    
+    <div class=container>
+        <div class=heroimage>
+            <img src="../images/Home-page-2.jpg" alt="Spicespoon" class="homeimage">
+        </div>
+        <div class="centered">
+            <h1>Dive into the world of Indian Spices</h1>
+        </div>
+    </div>
 
-        <h2>Why are spices important in your meals?</h2>
-                <p>Firstly, they add so much flavor and color to our food, that makes our food smell and taste 10 times better! More importantly, they contain antioxidants that prevent inflammation and boosts immunity. So, why not get the benefit of both health and flavor in one? The great thing about these spices is that even half a teaspoon brings a lot of goodness to you. </p>
-                <p><img src="../images/Home-page-1.jpg" alt="spicespoon2" class="image"></p>
+    <main>
+        <div class=mission>
+            <h2>Our mission</h2>
+                <p>To educate and share the beauty of Indian spices and to come together as a community to share and experiment with recipes.</p>
+        </div>
+
+        <div class=spoon>
+            <div class=image> 
+    <p><img src="../images/Home-page-1.jpg" alt="spicespoon2" class="image"></p>
+            </div>
+            <div class=description> 
+
+    <h2>Why are spices important in your meals?</h2>
+ 
+    <p>Firstly, they add so much flavor and color to our food, that makes our food smell and taste 10 times better! More importantly, they contain antioxidants that prevent inflammation and boosts immunity. So, why not get the benefit of both health and flavor in one? The great thing about these spices is that even half a teaspoon brings a lot of goodness to you. </p>
+    </div>
+</div>
+               
        
         <h2>So, what are some spices that are commonly used in Indian cuisine?</h2>
-            <h3>Turmeric</h3>
+<div class="spicebenefits">
+        <div class="circles">
+            <div class="para">
+                <h3>Turmeric</h3>
                 <p>We’ve also seen the “golden” milk trend that has been marketed in the western world that has been practiced for generations in India. It is simply turmeric mixed with warm milk – and it is life changing. This spice is a rich anti-inflammatory component that also reduces pain and swelling in different parts of your body. </p>
+            </div>
+
         
-            <h3>Cumin</h3>
+        </div>
+        
+        <div class="circles">
+            <div class="para">
+                <h3>Cumin</h3>
                 <p>Research suggests that black cumin is a strong and effective spice against mental and neurological illnesses, diabetes, cardiovascular disorders, infertility as well as infections. You can use both raw cumin seeds as well as cumin powder in your dishes.  </p>
-
-            <h3>Coriander</h3>
+            </div>
+        </div>
+            <div class="circles">
+                <div class="para">
+                <h3>Coriander</h3>
                 <p>These seeds, either whole, ground, or extracted may help in lowering blood sugar.  This is an all-rounder spice that influences a variety of characteristics in your body such as serving as an antioxidant, immunity boosting, protecting health and brain health. </p>
-
-            <h3>Cinnamon</h3>
+            </div>
+        </div>
+            <div class="circles">
+            <div class="para">
+                <h3>Cinnamon</h3>
                 <p>This spice is a good addition to the meals for those who have high blood sugar.  Similar to coriander, it helps in protecting the heart and reducing cholesterol levels. Fun fact: we use raw cinnamon sticks as a base with other spices so we can get the maximum flavor out of it!</p>
+            </div>
+        </div>
 
-            <h3>Red Chili</h3>
+            <div class="circles">
+                <div class="para">
+                <h3>Red Chili</h3>
                 <p>This spice is staple in Indian cuisine – and gives the kick! Similar to the ones above, red chilis fight inflammation as well as pain. It contains iron that increases blood flow and also promotes digestive health.</p>
+            
+            </div>
+        </div>
+    </div>      
+        
+            
 
         <h2>Here are some of the recreations that our followers have created!</h2>
                 <p><img src="../images/Home-page-3.jpg" alt="snacks" class="image"></p>
@@ -62,6 +160,7 @@
         <h2>Testimonials</h2>
                 <p>“The recipes provided are simple, to the point and great for someone who is just starting out trying new cuisines.”</p>
                 <p>“I always found Indian food challenging to make with the vast number of spices, but this website broke it down easy for me to understand and create a delicious meal for my family.”</p>
+                
     </main>
 <footer>
      <hr>
