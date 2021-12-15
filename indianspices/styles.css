@@ -12,7 +12,6 @@ h2 {
     font-size: 1.2em;
 }
 h3 {font-size: 1em}
-nav a:hover {background-color: #4eae64}
 nav {
   background-color: darkgreen;
 padding:10px;
@@ -20,3 +19,4 @@ margin-bottom: 30px }
 
 body {background-color:rgb(247, 234, 184);
   flex-wrap: wrap; }
+  span {color:#f4ecea;}
