@@ -15,11 +15,17 @@
 <style>
     body {height: 100%;}
     h1 {font-family: 'Playfair Display', serif;}
-    .homeimage {width: 100%;}
-    .container {
-    display: relative;
-    text-align: center;
-    color:green;}
+    .container {width: 100%; margin: 0 auto; position: relative;}
+        #modal {
+            position: absolute;
+            top: 10%;
+            left: 27%;
+            padding: 20px;
+            color:green;
+        }
+        .homeimage {
+            width: 100%;;
+        }
 .centered {
   top: 50%;
   left: 50%;
@@ -88,6 +94,7 @@ p {max-width: 100%;
 
                 a:link {color: #d5e344;}
   a:visited {color: #f4ecea;}
+
 </style>
 </head>
 <body>
@@ -97,9 +104,14 @@ p {max-width: 100%;
         <a href="about.html" class="alink">About</a> 
     </nav>
     
-    <div class=container>
-        <div class=heroimage>
-            <img src="../images/Home-page-2.jpg" alt="Spicespoon" class="homeimage">
+    <div class="container">
+        
+        <img src="../images/Home-page-2.jpg" alt="Spicespoon" class="homeimage">
+
+        <div id="modal">
+            <h1 class="headline">Dive into the world of Indian Spices</h1>
+        </div>
+           
         </div>
         <!--
             <div class="centered">
